@@ -1,7 +1,7 @@
 body {
     background-color: black;
     color: red;
-    font-family: Courier, monospace; /* Optional: You can customize the font */
+    font-family: 'Courier New', Courier, monospace; /* Optional: You can customize the font */
     margin: 0;
     padding: 0;
 }
