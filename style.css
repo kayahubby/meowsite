@@ -1,37 +1,40 @@
+/* Header styles */
 .main-header {
   background-color: #f0f0f0; /* Light gray background */
   padding: 20px; /* Add some padding around the header */
   text-align: center; /* Center the text */
-
-body {
-    background-color: black;
-    color: red;
-    font-family: 'Courier New', Courier, monospace; /* Optional: You can customize the font */
-    margin: 10;
-    padding-top: 20px;
 }
 
+/* Body styles */
+body {
+  background-color: black; /* Black background */
+  color: red; /* Red text color */
+  font-family: 'Courier New', Courier, monospace; /* Optional: You can customize the font */
+  margin: 0; /* Removes any default margin */
+  padding-top: 20px; /* Adds space at the top of the body */
+}
+
+/* Styling for the .video class (example) */
 .video {
   margin-bottom: 20px; /* Adds 20px of space after each video */
 }
 
+/* Navigation styles */
 nav {
-    display: flex; /* Use flexbox to display links in a row */
-    justify-content: flex-start; /* Align the items to the left */
-    gap: 30px; /* Adds space between the links */
+  display: flex; /* Use flexbox to display links in a row */
+  justify-content: flex-start; /* Align the items to the left */
+  gap: 30px; /* Adds space between the links */
 }
 
 nav h2 {
-    margin-bottom: 20; /* Remove the default margin from h2 */
+  margin-bottom: 0; /* Fixes the margin issue for h2 inside nav */
 }
 
 nav a {
-    text-decoration: underline; /* Remove underline */
-    color: yellow; /* Customize link color */
+  text-decoration: underline; /* Underline links */
+  color: yellow; /* Customize link color */
 }
 
 nav a:hover {
-    color: blue; /* Change color when hovered */
+  color: blue; /* Change color when hovered */
 }
-
-
