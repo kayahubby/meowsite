@@ -2,7 +2,7 @@ body {
     background-color: black;
     color: red;
     font-family: 'Courier New', Courier, monospace; /* Optional: You can customize the font */
-    margin: 0;
+    margin: 10;
     padding-top: 20px;
 }
 
