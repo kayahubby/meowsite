@@ -1,3 +1,8 @@
+.main-header {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 20px; /* Add some padding around the header */
+  text-align: center; /* Center the text */
+
 body {
     background-color: black;
     color: red;
