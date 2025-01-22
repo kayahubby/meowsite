@@ -3,7 +3,7 @@ body {
     color: red;
     font-family: 'Courier New', Courier, monospace; /* Optional: You can customize the font */
     margin: 0;
-    padding: 10px;
+    padding-top: 20px;
 }
 
 .video {
@@ -13,7 +13,7 @@ body {
 nav {
     display: flex; /* Use flexbox to display links in a row */
     justify-content: flex-start; /* Align the items to the left */
-    gap: 20px; /* Adds space between the links */
+    gap: 30px; /* Adds space between the links */
 }
 
 nav h2 {
