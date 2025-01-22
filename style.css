@@ -22,7 +22,7 @@ nav {
 }
 
 nav h2 {
-    margin: 0; /* Remove the default margin from h2 */
+    margin-bottom: 20; /* Remove the default margin from h2 */
 }
 
 nav a {
