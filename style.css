@@ -13,7 +13,7 @@ body {
   color: red; /* Red text color */
   font-family: 'Courier New', Courier, monospace; /* Optional: You can customize the font */
   margin: 0; /* Removes any default margin */
-  padding-top: 20px; /* Adds space at the top of the body */
+  padding-top: 50px; /* Adds space at the top of the body */
 }
 
 /* Styling for the .video class (example) */
@@ -26,6 +26,7 @@ nav {
   display: flex; /* Use flexbox to display links in a row */
   justify-content: flex-start; /* Align the items to the left */
   gap: 30px; /* Adds space between the links */
+  margin-bottom: 50px; /* Adds space below the nav bar */
 }
 
 nav h2 {
