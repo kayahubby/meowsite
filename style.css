@@ -10,3 +10,23 @@ body {
   margin-bottom: 20px; /* Adds 20px of space after each video */
 }
 
+nav {
+    display: flex; /* Use flexbox to display links in a row */
+    justify-content: flex-start; /* Align the items to the left */
+    gap: 20px; /* Adds space between the links */
+}
+
+nav h2 {
+    margin: 0; /* Remove the default margin from h2 */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Customize link color */
+}
+
+nav a:hover {
+    color: blue; /* Change color when hovered */
+}
+
+
