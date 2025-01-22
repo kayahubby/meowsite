@@ -1,10 +1,10 @@
 /* Header styles */
 .main-header {
   background-color: transparent; /* Light gray background */
-  padding: 20px; /* Add some padding around the header */
+  padding: 0px; /* Add some padding around the header */
   text-align: center; /* Center the text */
   border: 5px solid red; /* Red box outline */
-  border-radius: 10px; /* Optional: Rounded corners for the box */
+  border-radius: 0px; /* Optional: Rounded corners for the box */
 }
 
 /* Body styles */
