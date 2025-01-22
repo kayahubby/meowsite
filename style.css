@@ -13,7 +13,7 @@ body {
   color: red; /* Red text color */
   font-family: 'Courier New', Courier, monospace; /* Optional: You can customize the font */
   margin: 0; /* Removes any default margin */
-  padding-top: 50px; /* Adds space at the top of the body */
+  padding-top: 20px; /* Adds space at the top of the body */
 }
 
 /* Styling for the .video class (example) */
