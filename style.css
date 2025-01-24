@@ -52,7 +52,7 @@ img {
 
 .art-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Create columns */
+    grid-template-columns: repeat(3, 1fr); /* Create columns */
     gap: 16px; /* Space between items */
     padding: 20px;
 }
