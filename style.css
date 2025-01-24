@@ -46,5 +46,7 @@ img {
     width: 40%;
     height: auto;
     opacity: 1;
+  display: block;
+    margin: 20px auto; /* Center the image and add some space above and below */
 }
 
