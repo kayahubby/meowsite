@@ -41,3 +41,10 @@ nav a {
 nav a:hover {
   color: blue; /* Change color when hovered */
 }
+
+img {
+    width: 60%;
+    height: auto;
+    opacity: 0;
+}
+
