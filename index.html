@@ -1,6 +1,25 @@
 <header class="main-header">
 <h1>kayatichop.online</h1>
-     <h4>the world-wide web, yay</h4>
+    <script>
+  if (!localStorage.getItem("visited")) {
+    let visitorCount = localStorage.getItem("visitorCount");
+    visitorCount = visitorCount ? parseInt(visitorCount) : 0;
+    visitorCount += 1;
+    localStorage.setItem("visitorCount", visitorCount);
+    localStorage.setItem("visited", "true");  // Mark as visited
+  }
+  
+  // Display visitor count
+  document.addEventListener("DOMContentLoaded", function() {
+    let visitorCount = localStorage.getItem("visitorCount");
+    if (visitorCount) {
+      document.getElementById("visitor-count").textContent = `Visitor Count: ${visitorCount}`;
+    }
+  });
+</script>
+
+<p id="visitor-count"></p>
+
 </header>
 
 <nav>
