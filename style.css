@@ -27,6 +27,7 @@ nav {
   justify-content: flex-start; /* Align the items to the left */
   gap: 30px; /* Adds space between the links */
   margin-bottom: 50px; /* Adds space below the nav bar */
+  text-align: center;
 }
 
 nav h2 {
