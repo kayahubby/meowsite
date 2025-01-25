@@ -31,6 +31,7 @@ nav {
 }
 
 nav h2 {
+  display: inline-block;
   margin-bottom: 0; /* Fixes the margin issue for h2 inside nav */
 }
 
