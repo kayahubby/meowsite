@@ -29,6 +29,14 @@ nav {
   margin-bottom: 50px; /* Adds space below the nav bar */
   text-align: center;
 }
+ body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            margin: 0;
+        }
 
 nav h2 {
   display: inline-block;
