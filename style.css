@@ -29,6 +29,13 @@ nav {
   margin-bottom: 50px; /* Adds space below the nav bar */
   text-align: center;
 }
+warning {
+    display: flex;
+    justify-content: center; /* Centers the text horizontally */
+    align-items: center;     /* Centers the text vertically (if needed) */
+    text-align: center;      /* Optional: centers the text within the container */
+    padding: 20px;           /* Optional: adds padding around the content */
+}
 
 nav h2 {
   display: inline-block;
