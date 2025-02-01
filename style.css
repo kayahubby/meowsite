@@ -1,75 +1,78 @@
-/* Header styles */
-.main-header {
-  background-color: transparent; /* Light gray background */
-  padding: 0px; /* Add some padding around the header */
-  text-align: center; /* Center the text */
-  border: 5px solid red; /* Red box outline */
-  border-radius: 0px; /* Optional: Rounded corners for the box */
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Body styles */
+/* Body Styles */
 body {
-  background-color: black; /* Black background */
-  color: red; /* Red text color */
-  font-family: 'Courier New', Courier, monospace; /* Optional: You can customize the font */
-  margin: 0; /* Removes any default margin */
-  padding-top: 20px; /* Adds space at the top of the body */
+  background-color: black;
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 20px;
 }
 
-/* Styling for the .video class (example) */
-.video {
-  margin-bottom: 20px; /* Adds 20px of space after each video */
-}
-
-/* Navigation styles */
-nav {
-  display: flex; /* Use flexbox to display links in a row */
-  justify-content: center; /* Align the items to the left */
-  gap: 30px; /* Adds space between the links */
-  margin-bottom: 50px; /* Adds space below the nav bar */
+/* Header Styles */
+.main-header {
+  background-color: transparent;
+  padding: 0;
   text-align: center;
+  border: 5px solid red;
+  border-radius: 0;
 }
-warning {
-    display: flex;
-    justify-content: center; /* Centers the text horizontally */
-    align-items: center;     /* Centers the text vertically (if needed) */
-    text-align: center;      /* Optional: centers the text within the container */
-    padding: 20px;           /* Optional: adds padding around the content */
+
+/* Navigation Styles */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 nav h2 {
   display: inline-block;
-  margin-bottom: 0; /* Fixes the margin issue for h2 inside nav */
+  margin-bottom: 0;
 }
 
 nav a {
-  text-decoration: underline; /* Underline links */
-  color: yellow; /* Customize link color */
+  text-decoration: underline;
+  color: yellow;
 }
 
 nav a:hover {
-  color: blue; /* Change color when hovered */
+  color: blue;
 }
 
+/* Warning Section Styles */
+.warning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Image Styles */
 img {
-    width: 40%;
-    height: auto;
-    opacity: 1;
+  width: 40%;
+  height: auto;
+  opacity: 1;
   display: block;
-    margin: 20px auto; /* Center the image and add some space above and below */
+  margin: 20px auto;
 }
 
+/* Art Gallery Styles */
 .art-gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Create columns */
-    gap: 16px; /* Space between items */
-    padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding: 20px;
 }
 
 .art-item img {
-    width: 100%; /* Ensure the image fills the container */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 0px; /* Optional: adds rounded corners to the images */
+  width: 100%;
+  height: auto;
+  border-radius: 0;
 }
-
-
