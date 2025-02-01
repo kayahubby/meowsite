@@ -88,8 +88,8 @@ img {
 
 .art-gallery {
     display: grid;
-    /* Create as many columns as can fit with a minimum width of 200px per item */
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px; /* Adjust gap between items as needed */
-    padding: 20px; /* Optional padding around the grid */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px; /* Adjust the gap between items as needed */
+    padding: 20px;
 }
