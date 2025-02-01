@@ -1,87 +1,77 @@
 /* General Reset */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Body Styles */
 body {
-  background-color: black;
-  color: red;
-  font-family: 'Courier New', Courier, monospace;
-  padding-top: 20px;
-  text-align: center; /* Center text globally */
+    background-color: black;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 20px;
+    text-align: center;
 }
 
 /* Header Styles */
 .main-header {
-  background-color: transparent;
-  padding: 0;
-  border: 5px solid red;
-  border-radius: 0;
-  margin: 0 auto; /* Center the header */
-  max-width: 100%; /* Ensure it doesn't overflow */
+    background-color: transparent;
+    padding: 0;
+    border: 5px solid red;
+    border-radius: 0;
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 /* Navigation Styles */
 nav {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin-bottom: 50px;
-  text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 nav h2 {
-  display: inline-block;
-  margin-bottom: 0;
+    display: inline-block;
+    margin-bottom: 0;
 }
 
 nav a {
-  text-decoration: underline;
-  color: yellow;
+    text-decoration: underline;
+    color: yellow;
 }
 
 nav a:hover {
-  color: blue;
+    color: blue;
 }
 
-/* Warning Section Styles */
-.warning {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
+/* Art Gallery Styles */
+.art-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Always 3 columns */
+    gap: 16px; /* Space between grid items */
+    padding: 20px;
+    max-width: 1200px; /* Optional: Limit the maximum width of the gallery */
+    margin: 0 auto; /* Center the gallery */
 }
 
-/* Image Styles */
-img {
-  width: 40%;
-  height: auto;
-  opacity: 1;
-  display: block;
-  margin: 20px auto;
+.art-item img {
+    width: 100%; /* Ensure the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 0; /* Optional: adds rounded corners to the images */
 }
 
-/* Responsive Design */
+/* Responsive Design for Smaller Screens */
 @media (max-width: 768px) {
-  .main-header h1 {
-    font-size: 24px; /* Smaller font size for mobile */
-  }
+    .art-gallery {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+    }
+}
 
-  nav {
-    flex-direction: column; /* Stack nav items vertically on small screens */
-    gap: 10px; /* Reduce gap between nav items */
-  }
-
-  .video {
-    width: 100%; /* Full width on mobile */
-    height: auto;
-  }
-
-  section {
-    margin-bottom: 20px; /* Reduce margin for smaller screens */
-  }
+@media (max-width: 480px) {
+    .art-gallery {
+        grid-template-columns: 1fr; /* 1 column on very small screens */
+    }
 }
