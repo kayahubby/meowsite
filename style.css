@@ -11,15 +11,17 @@ body {
   color: red;
   font-family: 'Courier New', Courier, monospace;
   padding-top: 20px;
+  text-align: center; /* Center text globally */
 }
 
 /* Header Styles */
 .main-header {
   background-color: transparent;
   padding: 0;
-  text-align: center;
   border: 5px solid red;
   border-radius: 0;
+  margin: 0 auto; /* Center the header */
+  max-width: 100%; /* Ensure it doesn't overflow */
 }
 
 /* Navigation Styles */
@@ -63,16 +65,23 @@ img {
   margin: 20px auto;
 }
 
-/* Art Gallery Styles */
-.art-gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-  padding: 20px;
-}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-header h1 {
+    font-size: 24px; /* Smaller font size for mobile */
+  }
 
-.art-item img {
-  width: 100%;
-  height: auto;
-  border-radius: 0;
+  nav {
+    flex-direction: column; /* Stack nav items vertically on small screens */
+    gap: 10px; /* Reduce gap between nav items */
+  }
+
+  .video {
+    width: 100%; /* Full width on mobile */
+    height: auto;
+  }
+
+  section {
+    margin-bottom: 20px; /* Reduce margin for smaller screens */
+  }
 }
