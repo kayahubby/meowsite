@@ -90,6 +90,6 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, auto);
-    gap: 20px; /* Adjust the gap between items as needed */
+    gap: 5px; /* Adjust the gap between items as needed */
     padding: 0px;
 }
