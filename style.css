@@ -91,5 +91,5 @@ img {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, auto);
     gap: 20px; /* Adjust the gap between items as needed */
-    padding: 20px;
+    padding: 0px;
 }
