@@ -58,7 +58,7 @@ platforms {
     color: yellow;
 }
 
-    plqtforms {
+    platforms {
         flex-direction: column; /* Stack nav items vertically on small screens */
         gap: 10px; /* Reduce gap between nav items */
     }
