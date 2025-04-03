@@ -50,16 +50,20 @@ nav a:hover {
 
 platforms {
     display: inline-block;
-    margin-bottom: 0;
+    margin-bottom: 10;
 }
 
-platforms {
+platforms a {
     text-decoration: underline;
     color: yellow;
 }
 
+platforms a:hover {
+    color: blue;
+}
+
     platforms {
-        flex-direction: column; /* Stack nav items     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
