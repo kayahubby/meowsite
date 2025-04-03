@@ -59,8 +59,11 @@ platforms {
 }
 
     platforms {
-        flex-direction: column; /* Stack nav items vertically on small screens */
-        gap: 10px; /* Reduce gap between nav items */
+        flex-direction: column; /* Stack nav items     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
     }
 
 
