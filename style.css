@@ -47,6 +47,17 @@ nav a:hover {
     color: blue;
 }
 
+
+platforms {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+platforms {
+    text-decoration: underline;
+    color: yellow;
+}
+
 /* Warning Section Styles */
 .warning {
     display: flex;
